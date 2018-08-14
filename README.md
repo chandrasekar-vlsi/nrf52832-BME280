@@ -1,2 +1,2 @@
 # nrf52832
-Bluetooth Low Energy
+Getting Started with nrf52832 - Bluetooth Low Energy 
