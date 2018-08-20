@@ -14,7 +14,8 @@ sudo tar xvfj gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2 -C /usr/local
 sudo apt-get install -y lib32ncurses5 lib32z1
 echo 'PATH="/usr/local/gcc-arm-none-eabi-4_9-2015q3/bin:$PATH"' >> $HOME/.profile
 source $HOME/.profile
-# check version, expecting: 4.9.3 20150529 (release)
+
+check version, expecting: 4.9.3 20150529 (release)
 arm-none-eabi-gcc --version
 
 download latest version (>3.40) from Segger website.
