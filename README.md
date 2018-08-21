@@ -21,7 +21,11 @@ arm-none-eabi-gcc --version
 download latest version (>3.40) from Segger website.
 https://www.segger.com/products/development-tools/embedded-studio/
 
+
+
+mkdir nrf52
+cd nrf52
+
 Download SDK for nrf52832
 wget "http://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v12.x.x/nRF5_SDK_12.3.0_d7731ad.zip"
-
-
+git clone 
