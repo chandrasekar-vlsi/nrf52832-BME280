@@ -47,11 +47,15 @@ https://www.nordicsemi.com/eng/nordic/download_resource/51386/29/19549658/94917
 Connect nRF DK board with the computer
 
 cd ~/nrf52/nrf52832/examples/BME280_SPI/pca10040/s132/armgcc
-
 ./flash.sh
 
+PIN MAPPING
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 674156a0cbab00840e9464cc748bba1d38966c0c
+BME280   |   nRF52 DK
+--------------------
+GND      |   GND
+VCC      |   3.3V
+SCK      |   P0.29
+SDO      |   P0.28
+SDI      |   P0.25
+CS       |   P0.03
