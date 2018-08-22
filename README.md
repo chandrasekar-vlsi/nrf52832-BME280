@@ -51,4 +51,7 @@ cd ~/nrf52/nrf52832/examples/BME280_SPI/pca10040/s132/armgcc
 ./flash.sh
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 674156a0cbab00840e9464cc748bba1d38966c0c
