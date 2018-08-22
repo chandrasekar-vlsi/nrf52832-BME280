@@ -46,7 +46,7 @@ https://www.nordicsemi.com/eng/nordic/download_resource/51386/29/19549658/94917
 
 Connect nRF DK board with the computer
 
-cd ~/nrf52/nrf52832/examples/BME280/pca10040/s132/armgcc
+cd ~/nrf52/nrf52832/examples/BME280_SPI/pca10040/s132/armgcc
 
 ./flash.sh
 
