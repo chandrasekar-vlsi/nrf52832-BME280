@@ -18,14 +18,24 @@ source $HOME/.profile
 check version, expecting: 4.9.3 20150529 (release)
 arm-none-eabi-gcc --version
 
-download latest version (>3.40) from Segger website.
-https://www.segger.com/products/development-tools/embedded-studio/
-
-
 
 mkdir nrf52
 cd nrf52
 
+git clone https://github.com/chandrasekar-vlsi/nrf52832
+cd nrf52832
+
 Download SDK for nrf52832
-wget "http://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v12.x.x/nRF5_SDK_12.3.0_d7731ad.zip"
-git clone 
+wget http://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v12.x.x/nRF5_SDK_12.3.0_d7731ad.zip
+unzip nRF5_SDK_12.3.0_d7731ad.zip
+
+Download command line tools from here and extract it to /home/nrf52832/ folder
+https://www.nordicsemi.com/eng/nordic/download_resource/51386/29/19549658/94917
+
+
+Connect nRF DK board with the computer
+
+cd ~/nrf52/nrf52832/examples/BME280/pca10040/s132/armgcc
+./flash.sh
+
+
