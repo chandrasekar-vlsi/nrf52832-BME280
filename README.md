@@ -25,9 +25,9 @@ check version, expecting: 4.9.3 20150529 (release)
 arm-none-eabi-gcc --version
 
 
-mkdir nrf52
+mkdir ~/nrf52
 
-cd nrf52
+cd ~/nrf52
 
 git clone https://github.com/chandrasekar-vlsi/nrf52832
 
@@ -42,7 +42,6 @@ unzip nRF5_SDK_12.3.0_d7731ad.zip
 Download command line tools from here and extract it to /home/nrf52832/ folder
 
 https://www.nordicsemi.com/eng/nordic/download_resource/51386/29/19549658/94917
-
 
 Connect nRF DK board with the computer
 
