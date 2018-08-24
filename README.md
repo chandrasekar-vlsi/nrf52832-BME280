@@ -51,19 +51,17 @@ cd ~/nrf52/nrf52832/examples/BME280_SPI/pca10040/s132/armgcc
 
 ./flash.sh
 
-PIN MAPPING
+#PIN MAPPING
 
-BME280   |   nRF52 DK
+BME280<----->nRF52 DK
 
---------------------
+GND<-------->GND
 
-GND      |   GND
+VCC<-------->3.3V
 
-VCC      |   3.3V
+SCK<-------->P0.29
 
-SCK      |   P0.29
-
-SDO      |   P0.28
+SDO<-------->P0.28
 
 SDI      |   P0.25
 
