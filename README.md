@@ -1,5 +1,6 @@
 # nrf52832
 Getting Started with nrf52832 - Bluetooth Low Energy 
+[![nRF52 DK](http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/development/images/nRF52_DK_v1.1.0_Kit_content.png)]
 
 Introduction
 
