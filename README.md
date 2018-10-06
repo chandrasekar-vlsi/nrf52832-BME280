@@ -56,7 +56,7 @@ sudo python setup.py install
 # check version, expecting: 3.4.0 (or newer)
 nrfutil version
 
-
+https://www.segger.com/downloads/jlink/JLink_Linux_x86_64_beta.deb
 
 Connect nRF DK board with the computer
 
