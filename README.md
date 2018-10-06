@@ -45,8 +45,18 @@ Download command line tools from here and extract it to /home/nrf52832/ folder
 
 https://www.nordicsemi.com/eng/nordic/download_resource/51386/29/19549658/94917
 
-pip install --ignore-installed six
-pip install --ignore-installed six nrfutil
+pip install linecache2
+
+Install nrfutil
+
+git clone https://github.com/NordicSemiconductor/pc-nrfutil.git
+cd pc-nrfutil
+sudo pip install -r requirements.txt
+sudo python setup.py install
+# check version, expecting: 3.4.0 (or newer)
+nrfutil version
+
+
 
 Connect nRF DK board with the computer
 
