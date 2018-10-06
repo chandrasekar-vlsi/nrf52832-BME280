@@ -45,6 +45,9 @@ Download command line tools from here and extract it to /home/nrf52832/ folder
 
 https://www.nordicsemi.com/eng/nordic/download_resource/51386/29/19549658/94917
 
+pip install --ignore-installed six
+pip install --ignore-installed six nrfutil
+
 Connect nRF DK board with the computer
 
 cd ~/nrf52/nrf52832/examples/BME280_SPI/pca10040/s132/armgcc
