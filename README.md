@@ -50,11 +50,17 @@ pip install linecache2
 Install nrfutil
 
 git clone https://github.com/NordicSemiconductor/pc-nrfutil.git
+
 cd pc-nrfutil
+
 sudo pip install -r requirements.txt
+
 sudo python setup.py install
+
 # check version, expecting: 3.4.0 (or newer)
+
 nrfutil version
+
 
 https://www.segger.com/downloads/jlink/JLink_Linux_x86_64_beta.deb
 
