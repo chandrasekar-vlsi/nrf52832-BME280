@@ -104,7 +104,7 @@ nrfutil version
 https://www.segger.com/downloads/jlink/JLink_Linux_x86_64_beta.deb
 ```
 
-##Connect nRF DK board with the computer
+## Connect nRF DK board with the computer
 
 ```
 cd ~/nrf52/nrf52832/examples/BME280_SPI/pca10040/s132/armgcc
@@ -112,8 +112,6 @@ cd ~/nrf52/nrf52832/examples/BME280_SPI/pca10040/s132/armgcc
 
 ```
 ./flash.sh
-```
-
 ```
 
 ## PIN MAPPING
