@@ -94,8 +94,6 @@ sudo pip install -r requirements.txt
 sudo python setup.py install
 ```
 
-```
-
 ## check version, expecting: 3.4.0 (or newer)
 
 ```
