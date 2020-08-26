@@ -91,6 +91,7 @@ cd pc-nrfutil
 ```
 sudo pip install -r requirements.txt
 ```
+Note:  For any issues regarding pc_ble_driver_py>=0.14.2 check https://github.com/NordicSemiconductor/pc-ble-driver-py/issues/148
 
 ```
 sudo python setup.py install
