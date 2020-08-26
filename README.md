@@ -90,6 +90,7 @@ sudo python3 setup.py install
 ```
 nrfutil version
 ```
+Note: try`pip install -U protobuf` if you get TypeError: got an unexpected keyword argument 'serialized_options'
 
 ## 7.Download and install Jlink from the following link
 
