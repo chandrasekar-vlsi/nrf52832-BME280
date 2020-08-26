@@ -111,7 +111,7 @@ cd ~/nrf52/nrf52832/examples/BME280_SPI/pca10040/s132/armgcc
 ## 10. Pin mapping between nRF52 DK board and BME 280
 
 
-| BME280 PINS   |  nRF52 DK board Pine   |
+| BME280 PINS   |  nRF52 DK board PINS   |
 |--------------:|-----------------------:|
 | GND           |  GND                   |
 | VCC           | 3.3V                   |
