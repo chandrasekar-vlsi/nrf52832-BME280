@@ -1,7 +1,7 @@
 # nrf52832
 Getting Started with nrf52832 and BME280 Sensor - Bluetooth Low Energy 
 
-[![](https://www.nordicsemi.com/-/media/Images/Products/DevKits/nRF52-Series/nRF52-DK/nRF52-DK.png?h=530&la=en&mw=350&w=350&hash=48D397A047A718030261F80211DC881F8EFEA55D)](http://nordicsemi.com)
+[![](https://github.com/chandrasekar-vlsi/nrf52832/blob/master/banner.png)](http://nordicsemi.com)
 
 ## Introduction
 
