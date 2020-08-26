@@ -57,7 +57,8 @@ wget http://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v12.x.x/nRF5_SDK_12.3.0_d
 unzip nRF5_SDK_12.3.0_d7731ad.zip
 ```
 
-## 4. (Skip this step: it is part of this repo) Download command line tools (9.7.3) from here and extract it to /home/nrf52/nrf52832/ folder
+## 4.Command line tools 10.9.0 (Skip this step: it is already part of this repo)
+### if you face any dll issues Download latest version from here and extract it to /home/nrf52/nrf52832/ folder (it should have mergehex anf nrfjprog)
 
 https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Command-Line-Tools/Download
 
@@ -107,6 +108,7 @@ cd ~/nrf52/nrf52832/examples/BME280_SPI/pca10040/s132/armgcc
 
 ./flash.sh
 ```
+Note: if you changed Command line tools version make sure you update the same in flash.sh
 
 ## 10. Pin mapping between nRF52 DK board and BME 280
 
