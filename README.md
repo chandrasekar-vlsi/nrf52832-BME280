@@ -69,7 +69,9 @@ unzip nRF5_SDK_12.3.0_d7731ad.zip
 ## Download command line tools from here and extract it to /home/nrf52832/ folder
 
 ```
-https://www.nordicsemi.com/eng/nordic/download_resource/51386/29/19549658/94917
+https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Command-Line-Tools/Download
+
+https://www.nordicsemi.com/-/media/Software-and-other-downloads/Desktop-software/nRF-command-line-tools/sw/Versions-10-x-x/10-9-0/nRFCommandLineTools1090Linuxamd64tar.gz
 ```
 
 ```
