@@ -57,11 +57,9 @@ wget http://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v12.x.x/nRF5_SDK_12.3.0_d
 unzip nRF5_SDK_12.3.0_d7731ad.zip
 ```
 
-## 4.Download command line tools from here and extract it to /home/nrf52/nrf52832/ folder
-
+## 4. (Skip this step: it is part of this repo) Download command line tools (9.7.3) from here and extract it to /home/nrf52/nrf52832/ folder
 
 https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Command-Line-Tools/Download
-
 
 
 ## 5.Install linecache2
