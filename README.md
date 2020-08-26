@@ -75,7 +75,7 @@ https://www.nordicsemi.com/-/media/Software-and-other-downloads/Desktop-software
 ```
 
 ```
-pip install linecache2
+pip3 install linecache2
 ```
 
 ## Install nrfutil
@@ -89,12 +89,12 @@ cd pc-nrfutil
 ```
 
 ```
-sudo pip install -r requirements.txt
+sudo pip3 install -r requirements.txt
 ```
 Note:  For any issues regarding pc_ble_driver_py>=0.14.2 check https://github.com/NordicSemiconductor/pc-ble-driver-py/issues/148
 
 ```
-sudo python setup.py install
+sudo python3 setup.py install
 ```
 
 ## check version, expecting: 3.4.0 (or newer)
@@ -103,6 +103,7 @@ sudo python setup.py install
 nrfutil version
 ```
 
+## Download Jlink
 ```
 https://www.segger.com/downloads/jlink/JLink_Linux_x86_64_beta.deb
 ```
