@@ -106,7 +106,7 @@ https://www.segger.com/downloads/jlink/JLink_Linux_x86_64_beta.deb
 cd ~/nrf52/nrf52832/examples/BME280_SPI/pca10040/s132/armgcc
 
 
-./flash.sh
+sudo ./flash.sh
 ```
 Note: if you changed Command line tools version make sure you update the same in flash.sh
 
