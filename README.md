@@ -64,7 +64,11 @@ https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Command-Line
 
 ## 5.Install linecache2
 ```
-pip3 install linecache2
+pip3 install --user -U pip
+
+hash -r
+
+sudo pip3 install linecache2
 ```
 
 ## 6.Install nrfutil
@@ -77,10 +81,7 @@ git clone https://github.com/NordicSemiconductor/pc-nrfutil.git
 cd pc-nrfutil
 
 sudo pip3 install -r requirements.txt
-```
-Note:  Refer if your pip installation got struck with issue related to "pc_ble_driver_py>=0.14.2" please check https://github.com/NordicSemiconductor/pc-ble-driver-py/issues/148
 
-```
 sudo python3 setup.py install
 ```
 
