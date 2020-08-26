@@ -8,7 +8,7 @@ Getting Started with nrf52832 and BME280 Sensor - Bluetooth Low Energy
 This repo contains getting started guide and and example to interface BME280 sensor via SPI.
 
 
-## Download and install GNU ARM Embedded Toolchain 4.9
+### 1. Download and install GNU ARM Embedded Toolchain 4.9
 
 ```
 cd ~/Downloads/
@@ -34,11 +34,13 @@ echo 'PATH="/usr/local/gcc-arm-none-eabi-4_9-2015q3/bin:$PATH"' >> $HOME/.profil
 source $HOME/.profile
 ```
 
-## check version, expecting: 4.9.3 20150529 (release)
+### check version, expecting: 4.9.3 20150529 (release)
 
 ```
 arm-none-eabi-gcc --version
 ```
+
+## 2.Clone this repo
 
 ```
 mkdir ~/nrf52
@@ -56,9 +58,11 @@ git clone https://github.com/chandrasekar-vlsi/nrf52832
 cd nrf52832
 ```
 
-## Download SDK for nrf52832
+## 3.Download SDK for nrf52832
 
 ```
+cd ~/nrf52/nrf52832
+
 wget http://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v12.x.x/nRF5_SDK_12.3.0_d7731ad.zip
 ```
 
@@ -66,19 +70,19 @@ wget http://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v12.x.x/nRF5_SDK_12.3.0_d
 unzip nRF5_SDK_12.3.0_d7731ad.zip
 ```
 
-## Download command line tools from here and extract it to /home/nrf52832/ folder
+## 4.Download command line tools from here and extract it to /home/nrf52/nrf52832/ folder
 
 ```
 https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Command-Line-Tools/Download
 
-https://www.nordicsemi.com/-/media/Software-and-other-downloads/Desktop-software/nRF-command-line-tools/sw/Versions-10-x-x/10-9-0/nRFCommandLineTools1090Linuxamd64tar.gz
 ```
 
+## 5.Install linecache2
 ```
 pip3 install linecache2
 ```
 
-## Install nrfutil
+## 6.Install nrfutil
 
 ```
 git clone https://github.com/NordicSemiconductor/pc-nrfutil.git
@@ -97,28 +101,29 @@ Note:  For any issues regarding pc_ble_driver_py>=0.14.2 check https://github.co
 sudo python3 setup.py install
 ```
 
-## check version, expecting: 3.4.0 (or newer)
+### check version, expecting: 3.4.0 (or newer)
 
 ```
 nrfutil version
 ```
 
-## Download Jlink
+## 7.Download and install Jlink
 ```
 https://www.segger.com/downloads/jlink/JLink_Linux_x86_64_beta.deb
 ```
 
-## Connect nRF DK board with the computer
+## 8.Connect nRF DK board with your computer
+
+## 9.compile, generate hex and flash hex file to DK-board
 
 ```
 cd ~/nrf52/nrf52832/examples/BME280_SPI/pca10040/s132/armgcc
-```
 
-```
+
 ./flash.sh
 ```
 
-## PIN MAPPING
+## 10. Pin mapping between nRF52 DK board and BME 280
 
 BME280<----->nRF52 DK
 
